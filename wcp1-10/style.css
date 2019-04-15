@@ -1,0 +1,541 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.clearfix:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+header{
+	width: 100%;
+	height: 70px;
+	background-color: #EC715F;
+}
+
+.header-box{
+	width: 1024px;
+	margin: 0 auto;
+}
+
+.header-logo{
+	height: 70px;
+}
+
+nav{
+	float: right;
+
+}
+
+#interfaces{
+	display: none;
+}
+
+.header-nav-item{
+	float: left;
+	margin: 30px;
+	list-style: none;
+	color: #fafafa;
+	font-size: 16px;
+}
+
+.main-visual{
+	width: 100%;
+	position: relative;
+	height: 650px;
+	background-image: url(img/mv.png);
+	background-size: cover;
+	background-position: center;
+}
+
+.main-box{
+	color: #fafafa;
+	position: absolute;
+	top: 200px;
+	text-align: center;
+	width: 100%;
+}
+
+.main-title{
+	font-size: 64px;
+
+}
+
+.main-text{
+	font-size: 20px;
+	margin-top: 10px;
+}
+
+.portfolio-box{
+	background-color: #ECEFF1;
+	width: 100%;
+	padding: 90px 0;
+}
+.portfolio{
+	width: 920px;
+	margin: 0px auto;
+	text-align: center;
+	color: #000000;
+}
+
+.portfolio-title{
+	font-size: 32px;
+	padding-bottom: 8px;
+}
+
+.portfolio-text{
+	position: relative;
+	padding: 30px 0;
+}
+
+.portfolio-text:before{
+	content: "";
+	width: 70px;
+	background-color: #EC715F;
+	height: 3px;
+	position: absolute;
+	top: -3px;
+	left: 50%;
+	margin-left: -35px;
+}
+
+
+
+.portfolio-img{
+    margin: 0 10px 10px 0;
+    float: left;
+    background-color: #ECEFF1;
+}
+
+.portfolio-img:nth-child(1){
+	background-image: url(img/sketch.jpg);
+	background-size: cover;
+	width: 300px;
+    height: 250px;
+}
+
+.portfolio-img:nth-child(2){
+	background-image: url(img/websuku.png);
+	background-size: cover;
+	width: 300px;
+    height: 250px;
+}
+
+.portfolio-img:nth-child(3){
+	background-image: url(img/write.jpg);
+	background-size: cover;
+	width: 300px;
+    height: 250px;
+    margin-right: 0;
+}
+
+.portfolio-img:nth-child(4){
+	background-image: url(img/webcamp.png);
+	background-size: cover;
+	width: 300px;
+	height: 250px;
+}
+
+.portfolio-img:nth-child(5){
+	background-image: url(img/talk.jpg);
+	background-size: cover;
+	width: 300px;
+	height: 250px;
+}
+
+.portfolio-img:nth-child(6){
+	background-image: url(img/webcamp-mother.png);
+	background-size: cover;
+	width: 300px;
+	height: 250px;
+	margin-right: 0;
+
+}
+
+
+.feature{
+	width: 980px;
+	margin: 90px auto;
+    text-align: center;
+    color: #000000;
+}
+
+.feature-title{
+   padding-bottom: 8px;
+   font-size: 32px;
+}
+
+.feature-text{
+	padding: 30px 0;
+	font-size: 20px;
+	position: relative;
+}
+
+.feature-text:before{
+	content: "";
+	width: 70px;
+	background-color: #EC715F;
+	height: 3px;
+	position: absolute;
+	top: -3px;
+	left: 50%;
+	margin-left: -35px;
+
+}
+
+.icon-box{
+	display: inline-block;
+	width: 320px;
+
+}
+
+.icon-box;nth-child(2){
+    margin: 0 10px;
+}
+
+.icon-box-title{
+	font-size: 20px;
+	margin: 10px 0;
+}
+
+.icon-box-text{
+	text-align: left;
+}
+
+i{
+    font-size: 60px;
+}
+
+.profile{
+	background-color: #ECEFF1;
+	width: 100%;
+}
+
+.profile-box{
+	width: 1024px;
+	margin: 0 auto;
+	color: #000000;
+	text-align: center;
+}
+
+.profile-title{
+	font-size: 32px;
+	padding-top: 90px;
+	padding-bottom: 8px;
+}
+
+.profile-text{
+	font-size: 16px;
+	padding: 30px 0;
+	position: relative;
+}
+
+.profile-text:before{
+	content: "";
+	width: 70px;
+	height: 3px;
+	background-color: #EC715F;
+    position: absolute;
+    top: -3px;
+    left: 50%;
+    margin-left: -35px;
+}
+
+.profile-img-box{
+	width: 512px;
+	display: inline-block;
+	float: left;
+
+}
+
+.profile-img{
+	background-image: url(img/my-icon.jpg);
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin: auto;
+
+}
+
+.profile-more{
+    float: right;
+	width: 512px;
+	text-align: left;
+	padding-bottom: 90px;
+}
+.profile-name{
+	font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.profile-name-text{
+	font-size: 16px;
+	margin-bottom: 20px;
+}
+
+.profile-skill{
+	font-size: 20px;
+	margin-bottom: 5px;
+}
+
+.profile-skill-text{
+	font-size: 16px;
+}
+
+.contact{
+    width: 800px;
+    color: #000000;
+    margin: 90px auto;
+}
+
+.contact-title{
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.contact-text{
+	font-size: 16px;
+	text-align: center;
+	padding: 30px 0;
+	position: relative;
+}
+
+.contact-text:before{
+	content: "";
+	width: 70px;
+	height: 3px;
+	background-color: #EC715F;
+    position: absolute;
+    top: -3px;
+    left: 50%;
+    margin-left: -35px;
+}
+
+.contact-childbox{
+	width: 400px;
+	float: left;
+}
+
+.contact-box1{
+    width: 130px;
+    margin: 0 auto;
+}
+
+.mail-title{
+	font-size: 20px;
+	margin-bottom: 5px;
+}
+
+.mail-text{
+    display: inline-block;
+    border-bottom: 1px solid #000000;
+    margin-bottom: 20px;
+}
+
+.tell-title{
+	font-size: 20px;
+	margin-bottom: 5px;
+}
+
+.tell-text{
+    display: inline-block;
+    border-bottom: 1px solid #000000;
+}
+
+
+.sns{
+	width: 400px;
+	float: left;
+}
+
+.sns-title{
+	width: 240px;
+	margin: 0 auto;
+	font-size: 20px;
+}
+
+.social{
+	width: 240px;
+	margin: auto;
+	font-size: 50px;
+}
+
+i{
+	margin: 0 10px;
+}
+
+footer{
+	width: 100%;
+	background-color: #EC715F;
+	height: 60px;
+}
+
+.footer-text{
+	color: #FAFAFA;
+	font-size: 16px;
+    text-align: center;
+    line-height: 60px;
+}
+
+@media screen and (max-width:768px) {
+	header{
+		height: 50px;
+	}
+
+	.header-box{
+		width: 90%;
+		margin: 0 auto;
+		position: relative;
+	}
+
+	.header-logo{
+        height: 50px;
+	}
+
+	nav{
+		display: none;
+
+	}
+    #interfaces{
+    	display: block;
+    	position: absolute;
+    	top: 5px;
+    	right: 5%;
+    	height: 40px;
+    	width: 40px;
+    }
+
+    #interfaces i{
+    	padding: 0 5px;
+    	color: #FAFAFA;
+    	font-size: 40px;
+    	border: 1px solid #FAFAFA;
+
+    }
+
+    .main-visual{
+	background-image: url(img/code.png);
+	background-size: cover;
+	background-position: center;
+	width : 100%;
+	position: relative;
+    }
+
+    .main-box{
+	width: 90%;
+	position: absolute;
+	left: 5%;
+    }
+
+    .main-title{
+	    font-size: 40px;
+
+    }
+
+    .main-text{
+	    font-size: 20px;
+	    margin-top: 10px;
+    }
+
+    .portfolio{
+    	width: 90%;
+    	position: relative;
+
+    }
+    
+    .portfolio-img-box{
+    	margin: 0 auto;
+    	
+    }
+
+    .portfolio-img{
+    	background-position: center;
+    	float: none;
+    	margin: 10px auto;
+
+    }
+
+    .portfolio-img:nth-child(odd){
+    	display: none;
+    }
+
+    .portfolio-img:nth-child(6){
+	    margin: 5px auto;
+
+}
+
+    .feature{
+    	width: 90%;
+    }
+
+    .icon-box{
+    	margin-top: 30px;
+    }
+
+
+    .profile-box{
+    	width: 90%;
+
+    }
+
+    .profile-img-box{
+    	float: none;
+    	width: 250px;
+    	height: 250px;
+    	margin: 0 auto;
+    }
+
+    .profile-more{
+    	float: none;
+    	text-align: center;
+    	width: 90%;
+    	margin: 20px auto;
+
+    }
+
+
+
+    .contact{
+    	width: 100%;
+    }
+
+    .contact-box{
+    	width: 90%;
+    	margin: 0 auto;
+    }
+
+
+    .contact-childbox{
+        float: none;
+        width: 45%;
+        margin: 0 auto;
+    }
+
+    .contact-box1{
+    	text-align: center;
+    }
+
+    .sns{
+    	width: 90%;
+    	float: none;
+    	margin: 20px auto;
+    }
+
+    .sns-title{
+    	text-align: center;
+    }
+
+    .social{
+    	text-align: center;
+    }
+
+    .social i{
+    	font-size: 50px;
+    }
+
+
+}
