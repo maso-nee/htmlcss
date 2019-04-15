@@ -108,6 +108,7 @@ nav{
     margin: 0 10px 10px 0;
     float: left;
     background-color: #ECEFF1;
+    background-position: center;
 }
 
 .portfolio-img:nth-child(1){
